@@ -10,6 +10,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+/**
+ * 
+ * @author Rohit Ranjan
+ *
+ */
 @Entity
 public class ProductCategory implements Serializable{
 

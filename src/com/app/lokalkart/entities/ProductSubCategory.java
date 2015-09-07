@@ -10,6 +10,11 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+/**
+ * 
+ * @author Rohit Ranjan
+ *
+ */
 @Entity
 public class ProductSubCategory implements Serializable{
 

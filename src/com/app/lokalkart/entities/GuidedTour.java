@@ -9,6 +9,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
 
+/**
+ * 
+ * @author Rohit Ranjan
+ *
+ */
 @Entity
 public class GuidedTour implements Serializable{
 	

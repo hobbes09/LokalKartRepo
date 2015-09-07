@@ -12,6 +12,11 @@ import javax.persistence.OneToMany;
 
 import com.app.lokalkart.interfaces.TechnicalSpecification;
 
+/**
+ * 
+ * @author Rohit Ranjan
+ *
+ */
 @Entity
 public class Product implements Serializable{
 

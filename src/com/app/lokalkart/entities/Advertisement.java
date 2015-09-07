@@ -7,6 +7,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * 
+ * @author Rohit Ranjan
+ *
+ */
 @Entity
 public class Advertisement implements Serializable{
 

@@ -21,5 +21,24 @@ public class AppImage implements Serializable{
 	
 	private String imageUrl;
 	private ProductImageSize imageSize;
+	
+	public Long getImageId() {
+		return imageId;
+	}
+	public void setImageId(Long imageId) {
+		this.imageId = imageId;
+	}
+	public String getImageUrl() {
+		return imageUrl;
+	}
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
+	}
+	public ProductImageSize getImageSize() {
+		return imageSize;
+	}
+	public void setImageSize(ProductImageSize imageSize) {
+		this.imageSize = imageSize;
+	}
 
 }

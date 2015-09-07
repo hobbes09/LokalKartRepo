@@ -30,4 +30,36 @@ public class ProductCategory implements Serializable{
 	@OneToMany
 	private Set<ProductSubCategory> subCategories;
 
+	public Long getCatId() {
+		return catId;
+	}
+
+	public void setCatId(Long catId) {
+		this.catId = catId;
+	}
+
+	public String getCategoryName() {
+		return categoryName;
+	}
+
+	public void setCategoryName(String categoryName) {
+		this.categoryName = categoryName;
+	}
+
+	public List<AppImage> getProductCategoryImage() {
+		return productCategoryImage;
+	}
+
+	public void setProductCategoryImage(List<AppImage> productCategoryImage) {
+		this.productCategoryImage = productCategoryImage;
+	}
+
+	public Set<ProductSubCategory> getSubCategories() {
+		return subCategories;
+	}
+
+	public void setSubCategories(Set<ProductSubCategory> subCategories) {
+		this.subCategories = subCategories;
+	}
+
 }
